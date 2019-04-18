@@ -1,0 +1,147 @@
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#navbarSupportedContent{
+    text-align: right;
+    margin-left: 50%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #006699;
+    color: white;
+}
+
+
+.nav-item a{
+    padding-left: 50px;
+    font-family: serif;
+}
+
+
+
+a#nb{
+    color: white;
+    padding-left: 80px !important;
+    background-color: #006699;
+    
+}
+
+#nb:hover{
+    color: white;
+    font-size: 18px;
+    transition: .6s ease-in-out;
+}
+
+a#nb1{
+    color: white;
+    padding-left: 40px !important;
+    background-color: #006699;
+}
+
+#nb1:hover{
+    color: white;
+    font-size: 18px;
+    transition: .6s ease-in-out;
+}
+
+
+.form-inline{
+    margin-left: 80px;
+}
+
+.res{
+    width: 100%;
+    height: 600px;
+}
+
+.blocks{
+    width: 25%;
+    float: left;
+    padding: 6.33% 2.5% 6.33% 3%;
+    margin-left: 6.2%;
+    background-color: #FA7D3B;
+}
+
+.card{
+    width: 100%;
+}
+
+img#2 {
+   width: 480px;
+    height: 480px;
+}
+
+.types{
+        display: flex;
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background:#006699;
+      box-sizing: border-box;
+      padding-top: 30px;
+      color: #fff;
+      z-index: -1;
+    text-align: center;
+    }
+
+    .types:after{
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      content: '';
+      background: inherit;
+      z-index: -1;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform-origin: top left;
+      transform: skewY(4deg);
+        color: #fff;
+    }
+
+.intro h1 {
+    color: #fff;
+    font-family: 'oldiacI';
+    z-index: 9;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 39%;
+}
+
+.intro p {
+    color: #fff;
+    font-family: '';
+    z-index: 9;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    text-align: center;
+    line-height: 38px;
+    padding-left: 39%;
+    padding-top: 5%;
+}
+
+p.card-text{
+    font-family: 'oldiacI';
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    background-color: #0C588E;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 40px;
+}
